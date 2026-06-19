@@ -1,7 +1,7 @@
 "use client";
 import NavBar from "@/components/NavBar";
 import Image from "next/image";
-import Bmi from "@/assets/bmi.png";
+import bmi from "@/assets/bmi.png";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import { useState } from "react";
@@ -64,7 +64,7 @@ export default function Page() {
         {/*แสดงหัวข้อการคำนวณและรูป*/}
         <h1 className="text-2xl">BMI Calculator</h1>
         <h3 className="text-gray-500">คำนวณ BMI</h3>
-        <Image src={Bmi} alt="bmiimg" width={95} height={95} className="my-5" />
+        <Image src={bmi} alt="bmiimg" width={95} height={95} className="my-5" />
         {/*ส่วนของการป้อนหรือเลือก*/}
         <div className="w-full flex flex-col">
           <h3 className="font-bold">ป้อนน้ำหนัก (กิโลกกรัม)</h3>
